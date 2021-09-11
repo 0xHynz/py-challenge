@@ -1,3 +1,3 @@
 # python principles
-asah skill mu disini juga
-website: pythonprinciples.com
+asah juga skill ular mu disini <br>
+<a href="pythonprinciples.com">pythonprinciples.com</a>
