@@ -1,16 +1,10 @@
-
-def mid(text):
-    if text.isalpha():
-       if len(text) % 2 == 1:
-          text = [t for t in text]
-          bagi = int(len(text) / 2 )
-          return text[bagi]
-       else:
-           return ''
+def mid(text: str) -> str:
+    mid: float = len(text)/2
+    if mid % 2 == 0.5:
+        return ''
     else:
-       return ''
+        return text[int(mid)-1]
 
 
-if __name__=="__main__":
-   print(mid('abc'))
-
+if __name__ == "__main__":
+    print(mid('abdefghijklmno1'))
